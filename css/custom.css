@@ -1,5 +1,7 @@
 
 
+
+
 .social-links a {
     font-size: 18px;
     display: inline-block;
@@ -3024,7 +3026,7 @@ html[dir="rtl"] .tabs.tabs-vertical.tabs-right .nav-tabs li.active .nav-link:foc
 .list.list-icons li a:first-child>[class*="fa-"]:first-child,
 .list.list-icons li>.icons:first-child,
 .list.list-icons li a:first-child>.icons:first-child {
-    color: #2f2f62;
+    color:#2f2f62 ;
     border-color: #2f2f62;
 }
 
