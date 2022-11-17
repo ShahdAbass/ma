@@ -1,9 +1,5 @@
 @charset "UTF-8";
-/*
-Name: 			theme-elements.css
-Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	7.5.0
-*/
+
 
 /* Accordion */
 
@@ -1531,7 +1527,7 @@ html body.body .btn:active {
 
 .btn-warning:focus,
 .btn-warning.focus {
-    -webkit-box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5);
+    -webkit-box-shadow: 0 0 0 3px rgba(244, 242, 233, 0.5);
     box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5);
 }
 
@@ -1565,8 +1561,8 @@ html body.body .btn:active {
 
 .btn-outline.btn-warning:focus,
 .btn-outline.btn-warning.focus {
-    -webkit-box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5);
-    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5);
+    -webkit-box-shadow: 0 0 0 3px rgba(249, 248, 245, 0.5);
+    box-shadow: 0 0 0 3px rgba(254, 254, 253, 0.5);
 }
 
 .btn-outline.btn-warning.disabled,
@@ -1585,27 +1581,27 @@ html body.body .btn:active {
 
 .btn-danger {
     background-color: #2f2f62;
-    border-color: #2f2f62 #2f2f62 #bd2130;
+    border-color: #2f2f62 #2f2f62 #2f2f62;
     color: #FFF;
 }
 
 .btn-danger:hover,
 .btn-danger.hover {
-    background-color: #e25663;
-    border-color: #e4606d #e4606d #2f2f62;
+    background-color: #2f2f62;
+    border-color: #2f2f62 #2f2f62 #2f2f62;
     color: #FFF;
 }
 
 .btn-danger:focus,
 .btn-danger.focus {
-    -webkit-box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5);
-    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5);
+    -webkit-box-shadow: 0 0 0 3px rgba(76, 90, 121, 0.5);
+    box-shadow: 0 0 0 3px rgba(76, 90, 121, 0.5);
 }
 
 .btn-danger.disabled,
 .btn-danger:disabled {
     background-color: #2f2f62;
-    border-color: #2f2f62 #2f2f62 #bd2130;
+    border-color: #2f2f62 #2f2f62 #2f2f62;
 }
 
 .btn-danger:active,
@@ -1613,7 +1609,7 @@ html body.body .btn:active {
 .show>.btn-danger.dropdown-toggle {
     background-color: #2f2f62;
     background-image: none;
-    border-color: #bd2130 #bd2130 #921925;
+    border-color: #2f2f62 #2f2f62 #2f2f62;
 }
 
 .btn-outline.btn-danger {
@@ -1632,8 +1628,8 @@ html body.body .btn:active {
 
 .btn-outline.btn-danger:focus,
 .btn-outline.btn-danger.focus {
-    -webkit-box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5);
-    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5);
+    -webkit-box-shadow: 0 0 0 3px rgba(76, 90, 121, 0.5);
+    box-shadow: 0 0 0 3px rgba(76, 90, 121, 0.5);
 }
 
 .btn-outline.btn-danger.disabled,
@@ -1948,7 +1944,7 @@ html[dir="rtl"] .input-group-btn:not(:last-child)>.btn:not(:first-child) {
     left: 50%;
     width: 0;
     height: 1px;
-    background: #843c29;
+    background: #2f2f62;
     -webkit-transition: ease all 300ms;
     transition: ease all 300ms;
     -webkit-transform-origin: 50% 0;
@@ -2251,7 +2247,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 }
 
 .call-to-action.featured.featured-secondary {
-    border-top-color: #e36159;
+    border-top-color: #2f2f62;
 }
 
 .call-to-action.featured.featured-tertiary {
